@@ -3,9 +3,9 @@ import FAQbot
 app = Flask (__name__)
 
 @app.route ('/')
-def hello ():
+def homepage ():
     return "Yes"
-    return render_template ('bot.html')
+    #return render_template ('bot.html')
 
 @app.route ('/api/bot', methods = ['POST'])
 def say_name ():
