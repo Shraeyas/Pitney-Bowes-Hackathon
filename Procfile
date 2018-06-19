@@ -1,1 +1,1 @@
-web: gunicorn redditreader:app
+web: gunicorn deploy:app
