@@ -43,7 +43,7 @@
         </form>
       </div>
 
-      <div align = "center" style = "z-index:10; position:absolute;"><img style = "width : 30% ; height : 30%" src = "\static\loading.gif"></div>
+      <div id = "loading" align = "center" style = "z-index:10; position:absolute;"><img style = "width : 30% ; height : 30%" src = "\static\loading.gif"></div>
 
       <div>
         <div id = "answer" class = "jumbotron" style = "float : left; width : 49%; height : 75vh; z-index:1">
@@ -60,7 +60,9 @@
   </body>
 
   <script type="text/javascript">
+    $("#loading").hide();
       $('#query_form').submit(function(e) {
+              $("#loading").show();
               e.preventDefault();
               var data = {};
               var Form = this;
@@ -86,7 +88,9 @@
                       for (x in callback.suggest) {
                           $("#suggestions").append("<div class='suggest' style = 'font-weight : normal'><strong>" + i++ + ".</strong> " + callback.suggest[x] + "</div><br>");
                       }
+                      $("#loading").hide();
                       $('html, body').animate({scrollTop: $("#Input").offset().top}, 500);
+
                   },
                   error: function() {
                       $(this).html("error!");
