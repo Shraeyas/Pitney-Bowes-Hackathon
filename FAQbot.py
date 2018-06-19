@@ -72,6 +72,7 @@ def chat(usr):
     response = data['Answer'][questionset.index[ind]]
 
     inds = get_max5(cos_sims)
+
     for ix in inds:
         suggestions.append([data['Question'][questionset.index[ix]], data['Answer'][questionset.index[ix]]])
 
