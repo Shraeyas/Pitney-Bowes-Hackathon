@@ -67,6 +67,7 @@
     $("#loading").hide();
       $('#query_form').submit(function(e) {
               $("#loading").show();
+              $('html, body').animate({scrollTop: $("#Input").offset().top}, 500);
               e.preventDefault();
               var data = {};
               var Form = this;
@@ -93,7 +94,7 @@
                           $("#suggestions").append("<div class='suggest' style = 'font-weight : normal'><strong>" + i++ + ".</strong> " + callback.suggest[x] + "</div><br>");
                       }
                       $("#loading").hide();
-                      $('html, body').animate({scrollTop: $("#Input").offset().top}, 500);
+
 
                   },
                   error: function() {
