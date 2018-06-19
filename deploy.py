@@ -4,6 +4,7 @@ app = Flask (__name__)
 
 @app.route ('/')
 def hello ():
+	return "Hello"
     return render_template ('bot.html')
 
 @app.route ('/api/bot', methods = ['POST'])
