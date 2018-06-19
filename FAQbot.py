@@ -40,7 +40,7 @@ trainx, testx, trainy, testy = tts(X, y, test_size=.2, random_state=42)
 
 model = SVC(kernel='linear')
 model.fit(trainx, trainy)
-print("SVC:", model.score(testx, testy))
+#print("SVC:", model.score(testx, testy))
 
 def get_max5(arr):
     ixarr = []
