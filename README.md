@@ -41,7 +41,7 @@ Some key Areas Include :
 
 *  **Request:**
 
-  * **POST**
+   **POST**
 
       ```
       {  
@@ -49,7 +49,7 @@ Some key Areas Include :
       }  
       ```
 
-*  **Response:**  
+   **Response:**  
 
     *   ```
         {  
