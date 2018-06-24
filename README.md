@@ -11,6 +11,12 @@ The FAQ processing module was initially forked from https://github.com/MrJay10/b
 ```
 ## How to Run
 
+* **Requirements**
+```
+* Python
+* Pip
+```
+
 * **Install the prerequisites using pip**
 ```
 pip install -r requirements.txt
