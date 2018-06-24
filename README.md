@@ -15,8 +15,7 @@ The NLP module was initially forked from https://github.com/MrJay10/banking-faq-
 https://faqbothackerearth.herokuapp.com/
 ```
 
-## How to Run
-
+## Deploy to your Machine
 * **Requirements**
 ```
 1. Python
