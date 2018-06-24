@@ -9,6 +9,12 @@ The FAQs are being fetched and processed by the file FAQs.csv which contains Que
 Using Flask to deploy an API endpoint which fetches requests using POST method.
 The NLP module was initially forked from https://github.com/MrJay10/banking-faq-bot
 ```
+
+## Demo Link
+```
+https://faqbothackerearth.herokuapp.com/
+```
+
 ## How to Run
 
 * **Requirements**
@@ -24,11 +30,6 @@ pip install -r requirements.txt
 * **Run the server**
 ```
 python deploy.py
-```
-
-## Demo Link
-```
-https://faqbothackerearth.herokuapp.com/
 ```
 
 ## Theme
