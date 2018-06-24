@@ -73,7 +73,7 @@ Some key Areas Include :
       ```  
       {  
           answer: "Answer to the Query."
-          ques: "Most Relevznt question for the query" 
+          ques: "Most Relevant question for the query" 
           suggest: Object(5)
                    0: "Question Suggestion 1"
                    1: "Question Suggestion 2"
