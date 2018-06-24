@@ -51,7 +51,7 @@ Some key Areas Include :
 
    **Response:**  
 
-        
+      ```  
       {  
           answer: "Answer to the Query."
           ques: "Most Relevznt question for the query" 
@@ -62,10 +62,10 @@ Some key Areas Include :
                    3: "Question Suggestion 4"
                    4: "Question Suggestion 5"
           type: "Class/Category of question"
-        }  
+      }  
+      ```
 
-
-*  **cURL:**  
+    **cURL:**  
     ```
     curl -X POST http://localhost:5000/api/bot/ -H "Content-Type: application/json" -d '{"query": "Your Question"}'
         
