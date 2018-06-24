@@ -13,8 +13,8 @@ The FAQ processing module was initially forked from https://github.com/MrJay10/b
 
 * **Requirements**
 ```
-* Python
-* Pip
+1. Python
+2. Pip
 ```
 
 * **Install the prerequisites using pip**
