@@ -8,7 +8,7 @@ FAQ bot for processing the queries of customers and giving them relevant answers
 
 ## Demo Link
 ``
-[https://faqbothackerearth.herokuapp.com/](https://faqbothackerearth.herokuapp.com/)
+https://faqbothackerearth.herokuapp.com/
 ``
 
 ## Theme
