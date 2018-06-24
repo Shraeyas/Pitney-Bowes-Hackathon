@@ -1,4 +1,28 @@
 # Pitney-Bowes-Hackathon
+
+## About
+
+*  Pitney Bowes’ Small and Medium Business Challenge is a product and application development hackathon for small and medium business (SMBs) focused applications and solutions. 
+
+## Theme
+
+*  **E-commerce Enablement**
+
+```It is really difficult for a small online retailer to manage and streamline his E- commerce store operations. How can disruptive technology like AI, ML and distributed computing can help these online retailers to streamline operations.
+
+Some key Areas Include :
+
+Customer Support (Using Freshworks APIs and SDK)
+
+Returns management
+
+Order Management
+
+Marketing
+
+Hyperlocal Delivery Management
+```
+
 ## API
 
 *  **Endpoint:**  
