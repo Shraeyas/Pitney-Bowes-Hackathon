@@ -7,7 +7,7 @@ FAQ bot for processing the queries of customers and giving them relevant answers
 The FAQs are being fetched and processed by the file FAQs.csv which contains Questions, answers and their class.
 
 Using Flask to deploy an API endpoint which fetches requests using POST method.
-The FAQ processing module was initially forked from https://github.com/MrJay10/banking-faq-bot
+The NLP module was initially forked from https://github.com/MrJay10/banking-faq-bot
 ```
 ## How to Run
 
