@@ -48,6 +48,8 @@
       <div class = "row">
         <div class = "col-md-6">
         <div id = "answer" class = "jumbotron" style = "min-height : 75vh; z-index:1">
+          <h6><strong>Category : </strong></h6><div id = "categorytext"></div>
+          <br>
           <h6><strong>Answer : </strong></h6><div id = "answertext"></div>
         </div>
         </div>
@@ -86,6 +88,7 @@
                   success: function(callback) {
                       console.log(callback);
 
+                      $("#categorytext").text(callback.type);
                       $("#answertext").text(callback.answer);
                       $("#suggestions").text("");
                       var i = 1;
