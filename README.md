@@ -5,8 +5,9 @@
 ```
 FAQ bot for processing the queries of customers and giving them relevant answers and suggestions based on it.
 The FAQs are being fetched and processed by the file FAQs.csv which contains Questions, answers and their class.
+The FAQ processing module was Initially forked from https://github.com/MrJay10/banking-faq-bot
 ```
-Initially forked from https://github.com/MrJay10/banking-faq-bot
+
 
 ## Demo Link
 ```
