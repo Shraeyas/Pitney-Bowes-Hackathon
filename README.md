@@ -8,7 +8,8 @@
 
 *  **E-commerce Enablement**
 
-```It is really difficult for a small online retailer to manage and streamline his E- commerce store operations. How can disruptive technology like AI, ML and distributed computing can help these online retailers to streamline operations.
+```
+It is really difficult for a small online retailer to manage and streamline his E- commerce store operations. How can disruptive technology like AI, ML and distributed computing can help these online retailers to streamline operations.
 
 Some key Areas Include :
 
