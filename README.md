@@ -2,7 +2,14 @@
 
 ## About
 
-*  Pitney Bowes’ Small and Medium Business Challenge is a product and application development hackathon for small and medium business (SMBs) focused applications and solutions. 
+``
+FAQ bot for processing the queries of customers and giving them relevant answers and suggestions based on it. The FAQs are being fetched and processed by the file **FAQs.csv** which contains Questions, answers and their class.
+``
+
+## Demo Link
+``
+https://faqbothackerearth.herokuapp.com/
+``
 
 ## Theme
 
