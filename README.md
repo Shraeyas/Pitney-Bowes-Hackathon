@@ -9,19 +9,16 @@
 *  **E-commerce Enablement**
 
 ```
-It is really difficult for a small online retailer to manage and streamline his E- commerce store operations. How can disruptive technology like AI, ML and distributed computing can help these online retailers to streamline operations.
+It is really difficult for a small online retailer to manage and streamline his E- commerce store operations.
+How can disruptive technology like AI, ML and distributed computing can help these online retailers to streamline operations.
 
 Some key Areas Include :
 
-Customer Support (Using Freshworks APIs and SDK)
-
-Returns management
-
-Order Management
-
-Marketing
-
-Hyperlocal Delivery Management
+* Customer Support (Using Freshworks APIs and SDK)
+* Returns management
+* Order Management
+* Marketing
+* Hyperlocal Delivery Management
 ```
 
 ## API
@@ -33,9 +30,7 @@ Hyperlocal Delivery Management
 
 *  **Method :** `[POST]`  
 
-*  **Params:**  
-
-    * `Query`
+*  **Params:** `Query`
 
 *  **Request:**
 
