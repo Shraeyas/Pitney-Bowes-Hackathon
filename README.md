@@ -51,7 +51,7 @@ Some key Areas Include :
 
    **Response:**  
 
-    *   ```
+        ```
         {  
             answer: "Answer to the Query."
             ques: "Most Relevznt question for the query" 
