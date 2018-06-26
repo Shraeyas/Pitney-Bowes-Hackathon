@@ -68,7 +68,7 @@ Some key Areas Include :
       }  
       ```
 
-   **Response:**  
+*  **Response:**  
 
       ```  
       {  
@@ -84,7 +84,7 @@ Some key Areas Include :
       }  
       ```
 
-    **cURL:**  
+ *  **cURL:**  
     ```
     curl -X POST http://localhost:5000/api/bot/ -H "Content-Type: application/json" -d '{"query": "Your Question"}'
         
